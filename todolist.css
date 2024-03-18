@@ -40,7 +40,7 @@ h2 {
 
 #inputBx {
     position: relative;
-    width:  90%;
+    width:  100%;
     border: none;
     outline: none;
     padding: 8px 10px;
@@ -137,6 +137,8 @@ transform: rotate(-45deg);
 }
 
 ::-webkit-scrollbar-thumb {
+  background: #2f363e;
+  border-radius: 10px;  
 }
 
 nav {

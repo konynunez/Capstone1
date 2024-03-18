@@ -4,49 +4,97 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="contact.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-  
-  <header>    
+  <link rel="stylesheet" 
+  </header>
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <header>
     <nav class="navbar">
       <a href="index.html">Home</a>
       <a href="product.html">Bouquets</a>
       <a href="todolist.html">To Do List</a>
+      <a href="review.html">Reviews</a>
       <a href="contact.html">Contact</a>
-      <a href="review.html">Reviews</a> 
     </nav>
 
-    <div class="icons">
-      <a href="#" class "fas fa-heart"></a>  
-      <a href="#" class "fas fa-shopping-cart"></a>
-      <a href="#" class "fas fa-user"></a>
-    </div>
-    
   </header>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <section class="icon-container">
+    <div class="icons">
+      <img src="images/icon7.png" alt="">
+      <div class="info">
+        <h3>Always Fresh</h3>
+        <span>10 day returns</span>
+      </div>
+    </div>
+    <div class="icons">
+      <img src="images/icon6.png" alt="">
+      <div class="info">
+        <h3>Free Delivery</h3>
+        <span>at your early convenience</span>
+      </div>
+    </div>
+    <div class="icons">
+      <img src="images/icon1.png" alt="">
+      <div class="info">
+        <h3>Satisfaction Granted</h3>
+        <span>money back policy</span>
+      </div>
+    </div>
+    <div class="icons">
+      <img src="images/payment-icon.ico" alt="">
+      <div class="info">
+        <h3>Secure Payments</h3>
+        <span>100% Protected</span>
+      </div>
+    </div>
   
+  </section>
 
-</head>
+    <h2>Our Stores</h2>
+    <div id="my-location">
+    </div>
+    
+    <ul>     
+    </ul>
+    
+    <button id="createList">Store Hours</button>
 
+  </section>
+
+  <section class="contact">
+    <h1 class="heading"><span>Contact</span>Us</h1>
+    <div class="row">
+      <form action="">
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="number" placeholder="number" class="box">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+      </form>
+
+      <div class="image">
+        <img src="images/icon3.png" alt="">
+    </div>
+    
+    
+  </section>
   
-<body>
-
-  <h1></h1>
-
-  
-  <h2></h2>
-
-  
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
-
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
   <script src="contact.js"></script>
+  
 </body>
+
 </html>

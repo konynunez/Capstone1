@@ -1,5 +1,5 @@
 :root {
-  --pink: #e84393
+  --pink: #e84393;
 }
 
 * {
@@ -17,7 +17,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-padding: 6rem;
+  scroll-padding-top: 6rem;
   overflow-x: hidden;
 }
 
@@ -29,7 +29,7 @@ section {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 5rem;
-  background: #333;;
+  background: #333;
   color: #fff;
   padding: .9rem 3.5rem;
   cursor: pointer;
@@ -62,14 +62,13 @@ header .logo {
 }
 
 header .logo span {
-  color: var(--pink);
+  color:var(--pink);
 }
 
 header .navbar a {
-  margin: 1.5rem;
+  font-size: 2rem;
   padding: 0 1.5rem;
-  background: #fff;
-  border: 1rem solid rgba(0, 0, 0, .1);
+  color: #666;
 }
 
 .home .content h3 {
@@ -115,13 +114,13 @@ header .fa-bars {
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background: url(images/rose1.jpg) no-repeat;
+  background: url(images/bouq1.2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .home .content {
-  max-width: 50rem;
+  max-width: 60rem;
 }
 
 .home .content h3 {
@@ -130,8 +129,8 @@ header .fa-bars {
 }
 
 .home .content span {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 3.5rem;
+  font-weight: bolder;
   color: var(--pink);
   padding: 1rem 0;
   line-height: 1.5;
@@ -140,7 +139,7 @@ header .fa-bars {
 .home .content p {
   font-size: 1.5rem;
   font-weight: bolder;
-  color: black;
+  color: #170217;
   padding: 1rem 0;
   line-height: 1.5;
 }
@@ -165,12 +164,12 @@ header .fa-bars {
 
 
 
-
+/* media queries */
 @media (max-width: 991px) {
+ 
   html {
     font-size: 55%;
   }
-}
 
 header {
   padding: 2rem;
@@ -184,8 +183,7 @@ section {
   header .fa-bars {
     display: block;
   }
-}
-
+  
 header .navbar {
   position: absolute;
   top: 100;
@@ -193,10 +191,10 @@ header .navbar {
   right: 0;
   background: #eee;
   border-top: 1rem solid rgba(0, 0, 0, .1);
-  clip-path: polygon(0 0, 100% 0, 0 0);
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
-header toggler:checked~.navbar {
+header #toggler:checked ~ .navbar {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
@@ -213,3 +211,5 @@ header .navbar a {
     font-size: 50%;
   }
 }
+
+  
