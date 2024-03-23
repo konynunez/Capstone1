@@ -33,8 +33,8 @@ function createCards(){
     myLocationContent = myLocationContent + `
     <div class="card" sm-3">
       <div class="card-header">${storeLocations[i].storeManager}</div>
-        <div class="card-body">Store 
-        location${storeLocations[i].storeLocation} Store State
+        <div class="card-body"> Store 
+        location ${storeLocations[i].storeLocation} Store State
         <div class="card-t">${storeLocations[i].phoneNumber}</p>
       </div>
     </div>

@@ -5,10 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet" href="contact.css">
-  <link rel="stylesheet" 
-  </header>
+  <link rel="stylesheet" href="">
   <title>Contact</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -18,83 +17,102 @@
 <body>
 
   <header>
-    <nav class="navbar">
+    <nav class="navbar navbar-light bg-light" style = 'height: 100px' >
+        <div class="container-fluid">
       <a href="index.html">Home</a>
       <a href="product.html">Bouquets</a>
-      <a href="todolist.html">To Do List</a>
       <a href="review.html">Reviews</a>
       <a href="contact.html">Contact</a>
     </nav>
-
   </header>
-
-  <section class="icon-container">
-    <div class="icons">
-      <img src="images/icon7.png" alt="">
-      <div class="info">
-        <h3>Always Fresh</h3>
-        <span>10 day returns</span>
-      </div>
-    </div>
-    <div class="icons">
-      <img src="images/icon6.png" alt="">
-      <div class="info">
-        <h3>Free Delivery</h3>
-        <span>at your early convenience</span>
-      </div>
-    </div>
-    <div class="icons">
-      <img src="images/icon1.png" alt="">
-      <div class="info">
-        <h3>Satisfaction Granted</h3>
-        <span>money back policy</span>
-      </div>
-    </div>
-    <div class="icons">
-      <img src="images/payment-icon.ico" alt="">
-      <div class="info">
-        <h3>Secure Payments</h3>
-        <span>100% Protected</span>
-      </div>
-    </div>
+<br>
+</br>
   
-  </section>
-
+  <section>  
     <h2>Our Stores</h2>
     <div id="my-location">
-    </div>
-    
-    <ul>     
+</div>
+
+    <ul>
     </ul>
-    
-    <button id="createList">Store Hours</button>
-
+    <button id="createList">Store Hours</button> 
   </section>
 
-  <section class="contact">
-    <h1 class="heading"><span>Contact</span>Us</h1>
-    <div class="row">
-      <form action="">
-        <input type="text" placeholder="name" class="box">
-        <input type="email" placeholder="email" class="box">
-        <input type="number" placeholder="number" class="box">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="send message" class="btn">
-      </form>
+  <br>
+</br>
 
-      <div class="image">
-        <img src="images/icon3.png" alt="">
-    </div>
+  <section>
+    <section class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-wrapper">
+          <div class="contact-form"></div>
+          <h3>send us a message</h3>
+          <form>
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <input type="email" name="name" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><i class="fas fa-phone"></i>+1 919 567 9887</p>
+          <p><i class="fas fa-envelope"></i>Bouquets@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i>2023 New Horizons st, Raleigh NC 28130 USA</p>
+        </div>
+      </div>
+    </div>   
+    </section>
     
+    <br>
+  </br>
     
-  </section>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <footer>
+      <div class="icon-container">
+        <div class="icons">
+          <img src="images/icon7.png" alt="">
+          <div class="info">
+            <h3>Always Fresh</h3>
+            <span>10 day returns</span>
+          </div>
+        </div>
+        <div class="icons">
+          <img src="images/icon6.png" alt="">
+          <div class="info">
+            <h3>Free Delivery</h3>
+            <span>at your early convenience</span>
+          </div>
+        </div>
+        <div class="icons">
+          <img src="images/icon1.png" alt="">
+          <div class="info">
+            <h3>Satisfaction Granted</h3>
+            <span>money back policy</span>
+          </div>
+        </div>
+        <div class="icons">
+          <img src="images/payment-icon.ico" alt="">
+          <div class="info">
+            <h3>Secure Payments</h3>
+            <span>100% Protected</span>
+          </div>
+        </div>  
+    </footer>
 
-  <script src="contact.js"></script>
-  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+      <script src="contact.js"></script>
+      
+
 </body>
 
 </html>
